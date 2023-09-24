@@ -1,0 +1,61 @@
+// Hobby
+
+.hobby {
+    background-color: rgb(204, 217, 148);
+}
+
+.slider-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    gap: 5px;
+
+    &__text {
+        padding: 15px;
+        font-size: 25px;
+        color: $title-sign;
+    }
+
+    &__images {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+
+.swiper {
+    width: 100%;
+    max-width: 100%;
+}
+
+.swiper-wrapper {
+    align-items: stretch;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    height: auto !important;
+    cursor: pointer;
+
+    img {
+        object-fit: cover;
+    }
+
+    &__title {
+        font-style: italic;
+        color: $color-title;
+        font-size: 25px;
+    }
+}

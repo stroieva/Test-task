@@ -1,0 +1,81 @@
+// Глобальні стилі
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 105px;
+}
+
+body {
+    font-family: $font-main;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: $background-main;
+    color: $color-main-text;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.main {
+    flex-grow: 1;
+
+    &__section {
+        overflow: hidden;
+        padding: 50px 0;
+        border-top: 1px solid $border-line;
+        border-bottom: 1px solid $border-line;
+    }
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    color: $color-title;
+    font-family: $font-title;
+    margin-bottom: 40px;
+}
+
+.text-sign {
+    font-family: $font-title;
+    color: $color-title;
+    font-size: 22px;
+}
+
+.arrow-up {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: -50px;
+    right: 5px;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 1s;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 1;
+
+
+    &__active {
+        opacity: 1;
+        bottom: 50px;
+    }
+
+    &:hover {
+        opacity: 0.5;
+    }
+
+    &__icon {
+        font-size: 25px;
+        color: $color-link;
+    }
+}
+
+
+

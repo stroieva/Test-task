@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфоліо</title>
+    <link rel="shortcut icon" type="image/xml" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header__container">
+            <a class="logo" href="index.html">
+                <img class="logo__image" alt="logo" src="images/logo.svg">
+            </a>
+
+            <nav class="navigation">
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a href="#main" class="menu__link menu__link--active">Головна</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="#about" class="menu__link">Про мене</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="#education" class="menu__link">Освіта</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="#skills" class="menu__link">Навички</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="#portfolio" class="menu__link">Портфоліо</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="#hobby" class="menu__link">Хобі</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="#contacts" class="menu__link">Контакти</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="burger-menu">
+                <span class="burger-menu__line"></span>
+                <span class="burger-menu__line"></span>
+                <span class="burger-menu__line"></span>
+            </div>
+        </div>
+    </header>
+
+    <!--Main-->
+    <main class="main">
+        <!--Section hero-->
+        <section id="main" class="hero main__section">
+            <div class="container hero__container">
+                <div class="hero__info" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine"
+                    data-aos-duration="600">
+                    <h3 class="hero__title">
+                        Вітаю! Мене звуть <span class="hero__sign">Строєва Ганна</span>. Я цікавлюсь
+                        web-технологіями й мрію стати професійним
+                        <span class="hero__sign">Frontend-розробником</span>.
+                    </h3>
+
+                    <p class="hero__text">Пропоную познайомитись ближче.</p>
+                </div>
+
+                <img class="hero__image" src="images/hero/hero-image.png" alt="hero-image" data-aos="fade-left"
+                    data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
+            </div>
+        </section>
+
+        <!--Section about-->
+        <section id="about" class="about main__section">
+            <div class="container">
+                <h2 class="title" data-aos="fade-down" data-aos-duration="3000">Про мене</h2>
+
+                <div class="about__container">
+                    <div class="about-block">
+                        <div class="about-block__column about-block__image-container" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                            <img class="about-block__image" src="./images/about/about-frontend.jpg" alt="about">
+                        </div>
+
+                        <div class="about-block__column about-block__info" data-aos="flip-right"
+                            data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                            <p class="about-text"> Я з міста Кам'янське, Дніпропетровської області. Мені 24 роки.
+                                Захопилась
+                                веб-розробкою ще на 4-ому курсі. Світ Frontend не стоїть на місці й саме цим він
+                                мені цікавий, адже це мотивує вчитися, пізнавати нові технології, розвиватись й
+                                самовдосконалюватись.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="about-block">
+                        <div class="about-block__column about-block__info" data-aos="flip-right"
+                            data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                            <p class="about-text">Кожного дня ми переглядаємо велику кількість сайтів, користуємось
+                                різними
+                                мобільними додатками, які значно полегшують наше життя. Думки про те, що я
+                                сама зможу створювати подібні продукти, які будуть зручними й корисними для
+                                людей, мене надихають й спонукають працювати над собою ще більше.
+                            </p>
+                        </div>
+
+                        <div class="about-block__column about-block__image-container" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                            <img class="about-block__image" src="./images/about/about-image.jpg" alt="about">
+                        </div>
+                    </div>
+
+                    <div class="about-block">
+                        <div class="about-block__column about-block__image-container" data-aos="flip-right"
+                            data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                            <img class="about-block__image" src="./images/about/about-works.png" alt="about">
+                        </div>
+
+                        <div class="about-block__column about-block__info" data-aos="flip-left"
+                            data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                            <p class="about-text">Постійно займаюсь
+                                самонавчанням, переглядаю різні відеоуроки, відвідую різноманітні вебінари
+                                присвячені Frontend. В моєму портфоліо є декілька невеликих проектів
+                                (односторінкових сайтів, лендингів) і я не збираюсь на цьому зупинятись, а планую
+                                розширювати свій стек технологій, розробляти повноцінні багатосторінкові сайти й
+                                інтернет-магазини.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Section education-->
+        <section id="education" class="education main__section">
+            <div class="container">
+                <h2 class="title" data-aos="fade-down" data-aos-duration="3000">Освіта</h2>
+                <p class="education__details education__text-one" data-aos="fade-right" data-aos-offset="100"
+                    data-aos-easing="ease-in-sine">
+                    Я з відзнакою закінчила <span class="text-sign">Дніпровський національний університет імені Олеся
+                        Гончара</span>
+                    за спеціальність <span class="text-sign">"Системний аналіз"</span>. Захистила диплом бакалавра та
+                    магістра.
+                </p>
+
+                <p class="education__details education__text-two" data-aos="fade-right" data-aos-offset="200"
+                    data-aos-easing="ease-in-sine">Отримала другу вищу освіту в <span class="text-sign ">Дніпровському
+                        державному технічному універитеті</span> за спеціальністю <span
+                        class="text-sign ">"Менеджмент"</span>.</p>
+
+                <h3 class="education__title">Курси</h3>
+
+                <ul class="list-courses" data-aos="fade-right" data-aos-offset="100" data-aos-easing="ease-in-sine">
+                    <li class="list-courses__item">
+                        Закінчила курс <span class="list-courses__sign">Front-end Developer</span> в навчальному IT
+                        центрі
+                        <span class="text-sign"><a href="https://skillup.ua/" target="_blank">SkillUP</a></span>
+                    </li>
+
+                    <li class="list-courses__item">
+                        Пройшла поглиблений онлайн-курс <span class="list-courses__sign">«HTML5 & CSS3»</span> на
+                        платформі
+                        <span class="text-sign"><a href="https://itvdn.com/ua" target="_blank">ITVDN</a></span>
+                    </li>
+                </ul>
+
+                <div class="certificates" data-aos="fade-zoom-in">
+                    <img class="certificates__image" src="images/certificates/certificate-SkillUp.jpg"
+                        alt="certificate SkillUp" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                    <img class="certificates__image" src="images/certificates/certificate-ITVDN.jpg"
+                        alt="certificate ITVDN" data-aos="flip-right" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
+                </div>
+            </div>
+        </section>
+
+        <!--Section skills-->
+        <section id="skills" class="skills main__section">
+            <div class="container">
+                <h2 class="title" data-aos="fade-down" data-aos-duration="3000">Навички</h2>
+
+                <div class="skills-box">
+                    <h3 class="skills-box__title" data-aos="fade-down" data-aos-duration="3000">Рівень технічних навичок
+                    </h3>
+
+                    <div class="skills-box__column">
+                        <div class="skills-box__container" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="2000">
+                            <div class="skills-box__progress">
+                                <h3 class="skills-box__progress-title">HTML <span
+                                        class="skills-box__progress-text">95%</span></h3>
+
+                                <div class="skills-box__line">
+                                    <span class="skills-box__line-lavel"
+                                        style="width: 95%; background-color: rgb(49, 49, 114);"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-box__progress">
+                                <h3 class="skills-box__progress-title">CSS <span
+                                        class="skills-box__progress-text">90%</span></h3>
+
+                                <div class="skills-box__line">
+                                    <span class="skills-box__line-lavel"
+                                        style="width: 90%;  background-color: rgb(93, 39, 89);"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-box__progress">
+                                <h3 class="skills-box__progress-title">SCSS <span
+                                        class="skills-box__progress-text">90%</span></h3>
+
+                                <div class="skills-box__line">
+                                    <span class="skills-box__line-lavel"
+                                        style="width: 90%;  background-color: rgb(57, 146, 51);"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills-box__progress">
+                                <h3 class="skills-box__progress-title">JS <span
+                                        class="skills-box__progress-text">65%</span></h3>
+
+                                <div class="skills-box__line">
+                                    <span class="skills-box__line-lavel"
+                                        style="width: 65%;  background-color: rgb(210, 94, 102);"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <img class="skills-box__image" src="./images/skills/technology-image.png" alt="technology-image"
+                            data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="2000">
+                    </div>
+
+                    <h2 class="title" data-aos="fade-down" data-aos-duration="3000">Що я вмію?</h2>
+
+                    <div class="skills-container">
+                        <div class="technology" data-aos="flip-right" data-aos-duration="2000">
+                            <h3 class="technology__title">HTML5, CSS3</h3>
+                            <p class="technology__description">Верстка гнучких та адаптивних сайтів на HTML5, CSS3.</p>
+                        </div>
+
+                        <div class="technology" data-aos="flip-right" data-aos-duration="2000">
+                            <h3 class="technology__title">SCSS, LESS</h3>
+                            <p class="technology__description">Написання структурованого коду за допомогою препроцесорів
+                                SCSS, LESS.
+                            </p>
+                        </div>
+
+                        <div class="technology" data-aos="flip-right" data-aos-duration="2000">
+                            <h3 class="technology__title">JavaScript</h3>
+                            <p class="technology__description">Застосування JavaScript (ES5 та ES6) для створення логіки
+                                та додаткової інтерактивності на сайті.</p>
+                        </div>
+
+                        <div class="technology" data-aos="flip-right" data-aos-duration="2000">
+                            <h3 class="technology__title">Git, Github</h3>
+                            <p class="technology__description">Досвід роботи з системою керування версіями Git та
+                                сервісом для хостингу проєктів GitHub.</p>
+                        </div>
+
+                        <div class="technology" data-aos="flip-right" data-aos-duration="2000">
+                            <h3 class="technology__title">Тестування</h3>
+                            <p class="technology__description">Перевірка сайтів на валідність, кросбраузерність,
+                                семантичність.</p>
+                        </div>
+
+                        <div class="technology" data-aos="flip-right" data-aos-duration="2000">
+                            <h3 class="technology__title">Figma, Photoshop</h3>
+                            <p class="technology__description">Робота з графічними редакторами Photoshop, Figma.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Section portfolio-->
+        <section id="portfolio" class="portfolio main__section">
+            <div class="container">
+                <h2 class="title" data-aos="fade-down" data-aos-duration="3000">Портфоліо</h2>
+
+                <div class="portfolio__works">
+                    <div class="portfolio__works-container">
+                        <div class="portfolio__works-column" data-aos="zoom-in" data-aos-duration="3000">
+                            <a href="https://stroieva.github.io/Landing-Page-Relvise/" target="_blank">
+                                <img class="portfolio__works-image" src="./images/portfolio/landing-relvise.png"
+                                    alt="landing-relvise">
+                            </a>
+
+                            <div class="portfolio__works-info">
+                                <h2 class="portfolio__works-title">Сайт-лендінг "Relvise"</h2>
+                                <p class="portfolio__works-text">Технології: HTML5, CSS3, JavaScript, Flexbox, BEM,
+                                    анімація AOS</p>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__works-column" data-aos="zoom-in" data-aos-duration="3000">
+                            <a href="https://stroieva.github.io/Landing-Page-Design/" target="_blank">
+                                <img class="portfolio__works-image" src="./images/portfolio/landing-design.jpg"
+                                    alt="landing-design">
+                            </a>
+
+                            <div class="portfolio__works-info">
+                                <h2 class="portfolio__works-title">Сайт-лендінг "Design"</h2>
+                                <p class="portfolio__works-text">Технології: HTML5, SCSS, JavaScript, Gulp, слайдер
+                                    Swiper, бібліотека
+                                    FancyBox
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__works-column" data-aos="zoom-in-up" data-aos-duration="3000">
+                            <a href="https://stroieva.github.io/Landing-Page-FarmVest/" target="_blank">
+                                <img class="portfolio__works-image" src="./images/portfolio/landing-FarmWest.png"
+                                    alt="landing-FarmWest">
+                            </a>
+
+                            <div class="portfolio__works-info">
+                                <h2 class="portfolio__works-title">Сайт-лендінг "FarmVest"</h2>
+                                <p class="portfolio__works-text">Технології: HTML5, SCSS, JavaScript, Flexbox, BEM,
+                                    анімація AOS</p>
+                            </div>
+                        </div>
+
+
+                        <div class="portfolio__works-column" data-aos="zoom-in-up" data-aos-duration="3000">
+                            <a href="https://stroieva.github.io/Landing-Page-Plantex/" target="_blank">
+                                <img class="portfolio__works-image" src="./images/portfolio/landing-plantex.png"
+                                    alt="landing-plantex">
+                            </a>
+
+                            <div class="portfolio__works-info">
+                                <h2 class="portfolio__works-title">Сайт-лендінг "Plantex"</h2>
+                                <p class="portfolio__works-text">Технології: HTML5, CSS3, JavaScript, Grid, Flexbox,
+                                    BEM, Remix Icon</p>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__works-column" data-aos="zoom-in-down" data-aos-duration="3000">
+                            <a href="https://stroieva.github.io/Foodera/" target="_blank">
+                                <img class="portfolio__works-image" src="./images/portfolio/landing-foodera.png"
+                                    alt="landing-foodera">
+                            </a>
+
+                            <div class="portfolio__works-info">
+                                <h2 class="portfolio__works-title">Сайт-лендінг "Foodera"</h2>
+                                <p class="portfolio__works-text">Технології: HTML5, SCSS, JavaScript, Flexbox, Grid,
+                                    слайдер Swiper,бібліотека FancyBox</p>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__works-column" data-aos="zoom-in-down" data-aos-duration="3000">
+                            <a href="https://stroieva.github.io/Whine-Shop/" target="_blank">
+                                <img class="portfolio__works-image" src="./images/portfolio/website-wine.png"
+                                    alt="website-wine">
+                            </a>
+
+                            <div class="portfolio__works-info">
+                                <h2 class="portfolio__works-title">Вебсайт "Wine Store"</h2>
+                                <p class="portfolio__works-text">Технології: HTML5, LESS, JavaScript, Flex, Grid, Remix
+                                    Icon</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Section hobby-->
+        <section id="hobby" class="hobby main__section">
+            <div class="container hobby__container">
+                <h2 class="title" data-aos="fade-down" data-aos-duration="3000">Хобі</h2>
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <h3 class="swiper-slide__title">Вишивання</h3>
+                            <div class="slider-container">
+                                <div class="slider-container__images">
+                                    <img src="./images/hobby/image-1.jpg" alt="hobby">
+                                    <img src="./images/hobby/image-2.jpg" alt="hobby">
+                                    <img src="./images/hobby/image-3.jpg" alt="hobby">
+                                </div>
+
+                                <p class="slider-container__text">Захоплююсь вишивкою хрестиком й стрічками. Цей вид
+                                    діяльності дозволяє відпочити й дарує натхнення.</p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <h3 class="swiper-slide__title">Сад мрії</h3>
+                            <div class="slider-container">
+                                <img src="./images/hobby/garden-1.jpg" alt="hobby">
+                                <img src="./images/hobby/garden-2.jpg" alt="hobby">
+                                <img src="./images/hobby/garden-3.jpg" alt="hobby">
+                                <p class="slider-container__text">Обожнюю вирощувати квіти й доглядати за ними, займаюсь
+                                    створенням саду своєї мрії.</p>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <h3 class="swiper-slide__title">Навчання</h3>
+                            <div class="slider-container">
+                                <p class="slider-container__text">Навчання і є моїм хобі. Завжди намагаюсь відкривати
+                                    щось нове для себе. Дуже мрію увійти в світ IT, долучитись до команди професіоналів,
+                                    навчатись новим технологіям, вдосконалювати свої навички й отримати досвід. </p>
+
+                                <div class="slider-container__images">
+                                    <img src="./images/hobby/books-image.jpg" alt="hobby">
+                                </div>
+
+                                <div class="slider-container__images">
+                                    <img src="./images/hobby/books-image-1.jpg" alt="hobby">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--Section contacts-->
+        <section id="contacts" class="contacts main__section">
+            <div class="container">
+                <h2 class="title" data-aos="fade-down" data-aos-duration="3000">Контакти</h2>
+
+                <div class="contacts-block">
+                    <div class="contacts-block__column" data-aos="zoom-out" data-aos-duration="2000">
+                        <h3 class="contacts-block__title">Пошта</h3>
+                        <div class="contacts-block__icon">
+                            <a class="contacts-block__email" href="mailto:stroeva_anna@ukr.net">
+                                <i class="ri-mail-line"></i>
+                            </a>
+                        </div>
+
+                        <a class="contacts-block__email" href="mailto:stroeva_anna@ukr.net">stroeva_anna@ukr.net</a>
+                    </div>
+
+                    <div class="contacts-block__column" data-aos="zoom-out" data-aos-duration="3000">
+                        <h3 class="contacts-block__title">Телефон</h3>
+                        <div class="contacts-block__icon">
+                            <a class="contacts-block__phone" href="tel:+380985577918">
+                                <i class="ri-phone-line"></i>
+                            </a>
+                        </div>
+
+                        <a class="contacts-block__phone" href="tel:+380985577918">+38098-557-79-18</a>
+                    </div>
+
+
+                    <div class="contacts-block__column" data-aos="zoom-out" data-aos-duration="3000">
+                        <h3 class="contacts-block__title">Соціальні мережі</h3>
+                        <a href="https://t.me/stroieva" class="contacts-block__link">
+                            <i class="ri-telegram-fill"></i>
+                            Telegram
+                        </a>
+
+                        <a href="https://www.instagram.com/hanna_stroieva/" target="_blank"
+                            class="contacts-block__link">
+                            <i class="ri-instagram-line"></i>
+                            Instagram
+                        </a>
+
+                        <a href="https://github.com/stroieva" target="_blank" class="contacts-block__link">
+                            <i class="ri-github-fill"></i>
+                            Github
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="contacts-info">
+                <div class="contacts-info__details">
+                    <div class="contacts-info__email">
+                        <a class="contacts-info__email-link" href="mailto:stroeva_anna@ukr.net">
+                            <i class="ri-mail-line"></i>
+                            stroeva_anna@ukr.net
+                        </a>
+                    </div>
+
+                    <div class="contacts-info__phone">
+                        <a class="contacts-info__phone-link" href="tel:+380985577918">
+                            <i class="ri-phone-line"></i>
+                            +38098-557-79-18
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="contacts__social social-media">
+                    <a href="https://t.me/stroieva" class="social-media__link">
+                        <i class="ri-telegram-fill"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/hanna_stroieva/" target="_blank" class="social-media__link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/profile.php?id=100007224215793" target="_blank"
+                        class="social-media__link">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+
+                    <a href="https://github.com/stroieva" target="_blank" class="social-media__link">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="arrow-up ">
+        <i class="arrow-up__icon ri-arrow-up-line"></i>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

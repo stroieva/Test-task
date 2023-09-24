@@ -1,0 +1,23 @@
+// base
+
+@import "./base/reset";
+@import "./base/variables";
+@import "./base/fonts";
+@import "./base/global";
+
+// layout
+
+@import "./layout/header";
+@import "./layout/footer";
+
+// components
+
+@import "./section/hero";
+@import "./section/about";
+@import "./section/education";
+@import "./section/skills";
+@import "./section/portfolio";
+@import "./section/contacts";
+@import "./section/hobby";
+
+

@@ -1,0 +1,49 @@
+// Education
+
+.education {
+    &__details{
+        font-size: 20px;
+    }
+
+    &__title {
+        font-size: 25px;
+        font-style: italic;
+        color: $background-layout;
+        margin-bottom: 10px;
+    }
+
+    &__text-one {
+     margin-bottom: 10px;
+    }
+
+    &__text-two {
+        margin-bottom: 10px;
+    }
+}
+
+.list-courses {
+    padding-left: 30px;
+    
+    &__item {
+        font-size: 20px;
+        list-style:square;
+
+        &:not(:last-child) {
+            margin-bottom: 8px;
+        }
+    }
+
+    &__sign {
+        font-weight: 700;
+    }
+}
+
+.certificates {
+    display: flex;
+    padding: 20px 0;
+    gap: 10px;
+    &__image {
+        width: 50%;
+        max-width: 100%;
+    }
+}

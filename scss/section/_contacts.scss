@@ -1,0 +1,65 @@
+// Contacts
+
+.contacts {
+    background-color: rgb(213, 208, 244);
+    padding: 90px 0;
+}
+
+.contacts-block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 100%;
+
+    &__column {
+        background-color: $color-link;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        align-items: center;
+        border-radius: 20px;
+        transition: background-color 0.8s;
+        width: 300px;
+        max-width: 100%;
+    }
+
+    &__title {
+        font-size: 18px;
+        text-transform: uppercase;
+        color: $title-sign;
+    }
+
+    &__icon {
+        background-color: $background-layout;
+        padding: 15px;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.5s;
+
+        i {
+            color: white;
+            font-size: 20px;
+        }
+
+        &:hover {
+            background-color: $title-sign;
+        }
+    }
+
+    &__email, &__phone, &__link {
+        font-size: 20px;
+    }
+
+    &__link {
+        transition: 0.5s;
+        border-bottom: 1px solid transparent;
+
+        &:hover {
+            border-bottom: 1px solid $background-layout;
+        }
+    }
+}

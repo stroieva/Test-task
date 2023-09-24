@@ -1,0 +1,82 @@
+// Header
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px;
+    box-shadow: $shadow;
+    background-color: $background-layout;
+    z-index: 2;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.navigation {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+.menu {
+    display: flex;
+
+    &__item {
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+    }
+
+    &__link {
+        color: $color-link;
+        font-size: 18px;
+        transition: border-bottom 0.6s;
+        border-bottom: 4px solid transparent;
+       
+        &:hover {
+            border-bottom: 4px solid $color-link-hover;
+        }
+
+        &--active {
+            color: $color-link-hover;
+            border-bottom: 4px solid $color-link-hover;
+        }
+
+    }
+}
+
+.burger-menu {
+    position: relative;
+    width: 25px;
+    height: 22px;
+    cursor: pointer;
+    z-index: 2;
+    display: none;
+    
+    &__line {
+       position: absolute;
+       right: 0;
+       left: 0;
+       height: 4px;
+       background-color: $color-link;
+      
+
+       &:nth-child(1) {
+         top: 1px;
+       }
+
+       &:nth-child(2) {
+        top: 9px;
+      }
+
+      &:nth-child(3) {
+        bottom: 1px;
+      }
+    }
+}

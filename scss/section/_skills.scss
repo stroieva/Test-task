@@ -1,0 +1,84 @@
+// Skills
+
+.skills-box {
+    &__title {
+        color: $title-sign;
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+
+    &__column {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       background-color: bisque;
+       padding: 30px;
+       border-radius: 20px;
+       margin-bottom: 20px;
+    }
+
+    &__container {
+        flex: 0 1 50%;
+    }
+
+    &__progress {
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+
+    &__progress-title {
+        display: flex;
+        justify-content: space-between;
+        color: rgb(59, 59, 175);
+    }
+
+    &__progress-text {
+        color: rgb(95, 25, 97);
+    }
+
+    &__line {
+        padding: 2px;
+        border: 1px solid rgb(161, 1, 105);
+        background: rgb(209, 232, 254);
+        border-radius: 2px;
+    }
+
+    &__line-lavel {
+        display: block;
+        width: 100%;
+        height: 10px;
+    }
+
+    &__image {
+        width: 50%;
+        max-width: 100%;
+    }
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    height: 100%;
+}
+
+.technology { 
+    text-align: center;
+    background-color: rgb(208, 246, 246);
+    border-radius: 10px;
+    border: 1px solid $title-sign;
+    padding: 20px;
+    width: 100%;
+    max-width: 100%;
+    flex: 0 1 30%;
+
+    &__title {
+        margin-bottom: 15px;
+    }
+
+    &__description {
+        font-size: 18px;
+    }
+}
